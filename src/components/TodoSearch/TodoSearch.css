@@ -1,0 +1,11 @@
+.search-input {
+    height: 2rem;
+    width: 50%;
+    text-align: center;
+    transition: 0.25s;
+    margin: 0 auto;
+}
+
+.search-input:focus{
+    border-radius: 1rem;
+}

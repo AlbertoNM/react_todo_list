@@ -1,13 +1,13 @@
 import React from "react";
+import './TodoList.css';
 
-function TodoList() {
+function TodoList(props) {
     return(
-        <ul>
-            <li>a</li>
-            <li>b</li>
-            <li>c</li>
-            <li>d</li>
-        </ul>
+        <section>
+            <ul className="list">
+                {props.children}
+            </ul>
+        </section>
     );
 }
 
