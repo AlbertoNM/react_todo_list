@@ -1,4 +1,4 @@
-.search-input {
+.search_input {
     height: 2rem;
     width: 50%;
     text-align: center;
@@ -6,6 +6,6 @@
     margin: 0 auto;
 }
 
-.search-input:focus{
+.search_input:focus{
     border-radius: 1rem;
 }
